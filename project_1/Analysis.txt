@@ -1,0 +1,56 @@
+Run time analysis for the worst case using Big-O Notation
+
+Task #0
+
+Runtime: O(1)
+
+Array access via index has 0(1) time complexity. 
+In this case, we have two accesses of arrays.
+Therefore, the time complexity is O(1+1), which is roughly, O(1).
+
+
+Task #1
+
+Runtime: O(n)
+
+The code consists of two for-loops.
+A for-loop over all indexes has a time complexity - O(n).
+Therefore, this code roughly has O(n) time complexity.
+
+Task #2
+
+Runtime: O(n)
+
+The code consists of four for-loops.
+A for-loop over all indexes has a time complexity - O(n).
+Therefore, this code roughly has O(n) time complexity.
+
+Task #3
+
+Part: A
+
+Runtime: O(n * logn)
+
+This code consists of two for-loops and one sorting a list.
+The for-loops will have a time complexity - O(n), while sorting a list - O(n *logn).
+Therefore, the time complexity for Part A (Task #3) is: O(n*(1+1+1+1) + n*logn + n),
+which is roughly O(n*logn).
+
+Part: B
+
+Runtime: O(n)
+
+We have one for-loop with a string operation and incrementing a variable,
+which has a time complexity O(n*(1+1)), which is roughly O(n).
+
+Task #4
+
+Runtime: O(n*log n)
+
+The code consists of four for-loops, which have time complexity O(n) each.
+Also, we have one sorting a list, which has a time complexity  - O(n*log n).
+Therefore, the time complexity for the code roughly is O(n + n + n + n*logn +n) = O(n*logn)
+
+Reference:
+Prado, K. S. do. (2020, February 15). Understanding time complexity with Python examples.
+ Medium. https://towardsdatascience.com/understanding-time-complexity-with-python-examples-2bda6e8158a7.
